@@ -3,6 +3,7 @@ CFLAGS=-Wall -std=c99
 PREFIX=/usr/local
 BINS=aes_keyschedule des_keyschedule sm4_keyschedule
 
+#配置make https://cloud.tencent.com/developer/ask/sof/108767148/answer/133169949
 all: $(BINS)
 
 aes_keyschedule: aes_keyschedule.c
